@@ -9,7 +9,8 @@ echo ""
 echo ""
 echo "Step 1: Lets see if we can run anything as root, type:"
 printf "\x1b[31m\"find /bin -perm /4000\"\x1b[0m\n"
-eprintf "Step 2: Type \x1b[31m\"sudo bash -p\"\x1b[0m\n in the terminal";
+printf "Step 2: Type \x1b[31m\"sudo bash -p\"\x1b[0m\n in the terminal";
+echo "The default password is 'password'"
 echo "You should now be root, type"
 printf "\x1b[31m\"whoami\"\x1b[0m\n"
 echo ""
